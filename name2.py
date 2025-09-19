@@ -19,3 +19,5 @@ first_name = "maria"
 last_name = "oliveira"
 full_name = first_name + " " + last_name
 print("hello, " + full_name.title() + "!")  # Saída: hello, Maria Oliveira!
+print("hello, " + full_name.upper() + "!")  # Saída: hello, MARIA OLIVEIRA!
+print("hello, " + full_name.lower() + "!")  # Saída: hello, maria oliveira!
